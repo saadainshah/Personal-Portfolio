@@ -1,0 +1,69 @@
+.top_bar{
+    background:#2aa2ec;
+    padding: 5px 0px;
+}
+
+.social_icons{
+    margin-right: 5px;
+}
+.contact_info{
+    color:#fff;
+    font-size: 16px;
+}
+
+.my_menu{
+    margin-top: 27px;
+}
+
+.my_menu .navbar-default{
+    background: none;
+    border: none;
+}
+
+.my_menu .navbar-nav .active a, .my_menu .navbar-nav .active a:hover {
+    background: #2aa2ec;
+    color: #fff;
+}
+
+.my_menu .navbar-nav li a:hover{
+    background: #2aa2ec;
+    color: #fff;
+}
+
+@media(max-width: 1200px){
+   .my_menu .pull-right{float:none !important;}
+}
+
+.javaImage{
+    margin-top: 40px;
+}
+
+.myCompanies{
+    background:radial-gradient(circle, #009cde, #003087);
+    padding: 25px 0px;
+}
+
+.myCompanies h1{
+    color: #fff;
+}
+
+.myCompanies .companySizing{
+    margin-top: 25px;
+}
+
+.footer{
+    background:#333;
+    padding: 20px 0px;
+    color: #fff;
+}
+
+.footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li a{
+   color: #fff;
+   font-size: 15px; 
+}
